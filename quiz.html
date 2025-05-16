@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+<div class="quiz-container">
+  <h2 id="question">Question comes here</h2>
+  <div class="options">
+    <button class="option-btn" onclick="checkAnswer(this)"></button>
+    <button class="option-btn" onclick="checkAnswer(this)"></button>
+    <button class="option-btn" onclick="checkAnswer(this)"></button>
+    <button class="option-btn" onclick="checkAnswer(this)"></button>
+  </div>
+  <button id="next-btn" onclick="nextQuestion()">Next</button>
+  <div id="score" class="hidden"></div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
